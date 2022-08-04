@@ -1,0 +1,159 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    text-align: center;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    font-family: 'Outfit', sans-serif;
+    /* margin-top: 50px; */
+    box-shadow: 10px 10px 20px 20px hsla(219, 94%, 6%, 0.733);
+     
+}
+
+#mainph {
+    margin-top: 20px;
+    width: 302px;
+    height: 302px;
+    border-radius: 15px;
+    
+}
+
+#maintxt {
+    text-align: left;
+    padding-left: 20px;
+}
+
+h2 {
+    color:hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+#left {
+    text-align: left;
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+}
+
+#right {
+    text-align: right;
+    font-size: 18px;
+    position: relative;
+}
+
+#txt-eth {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid hsl(215, 32%, 27%) ;
+    
+}
+
+#line {
+    height: 0.5px;
+    width: 200px;
+    background: hsl(0, 0%, 100%);
+   
+}
+
+#prof-pic {
+    width: 33px;
+    height: 33px; 
+    margin-left: 10px;
+    border: solid white;
+    border-radius: 50px;
+   
+}    
+
+#card-ft {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+#creator {
+    font-size: 16px;
+    margin-right: 90px;
+}
+
+#name {
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+/* #mainph:hover {
+    color: hsla(178, 100%, 50%, 0.795);
+    cursor: pointer;
+
+} */
+
+.container {
+    position: relative;
+    width: 302px;
+    max-width: 302px;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 302px;
+    width: 302px;
+    opacity: 0;
+    transition: .3s ease;
+    background: hsla(178, 100%, 50%, 0.795);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    color: white;
+    font-size:100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-user:hover {
+    color: #eee
+}
+
+.big-box {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* #line {
+    color: hsl(215, 32%, 27%);
+} */
