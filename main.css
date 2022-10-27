@@ -6,10 +6,8 @@ body {
 
 main {
     background-color: hsl(216, 50%, 16%);
-    margin-top: 30%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
     width: 350px;
     height: 596px;
     border-radius: 15px;
